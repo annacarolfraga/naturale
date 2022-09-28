@@ -1,0 +1,127 @@
+body{
+    background: linear-gradient(#fffbdc,#cefaaa );
+}
+#mensagem {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#Topo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right:10%;
+    margin-left: 10%;
+    justify-content: center;
+    height: 45px;
+    background: #c9e265;
+    border-radius: 25px;   
+    box-shadow: 0.5rem 0.1rem 1rem rgb(169, 206, 169);
+}
+
+#Imagem1{
+    display: flex;
+    float: left;
+    
+}
+
+#Imagem2{
+    display: inline-flex;
+    float: right;
+    margin-top: -3.2%;
+    cursor: pointer;
+}
+#Imagem3{
+    margin: 0.5%;
+}
+#T2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#Topo2{
+    display: flex;
+    margin: 10px;
+    width: 80%;
+    background:#7ed957;
+    border-radius: 25px;
+
+}
+
+#Topo2_2{
+    display: flex;
+    justify-content: space-evenly;
+}
+#Topo2_2 a{
+    font-weight: bold;
+    text-decoration-line: none;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Imagens4{
+   margin-top: 10px; 
+    width: 50%;
+}
+
+
+
+
+div.gallery {
+    margin: 20px;
+    margin-top: 100px;
+    float: left;
+    width: 260px;
+    height: 280px;
+    /*border: 1px solid black;
+    border-radius: 25px;*/
+  }
+  
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #7ed957;
+    
+  }
+  
+  div.desc {
+    background: #fffbdc;
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 2px #c9e265;
+   
+  }
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-content: flex-end;
+    background-color: #c9e265;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;    
+    margin-top: 20%;
+    margin-bottom: 5px;
+    float: left;
+    justify-content: space-evenly;
+
+}
+.rodape{
+ 
+    margin: 25px;
+}
+
+h2{
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+   
+}
+
